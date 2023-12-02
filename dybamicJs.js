@@ -42,7 +42,6 @@ function showFunction(value, index) {
 
 
 persons.forEach(showFunction)
-alert(text)
 table.innerHTML = text
 
 
