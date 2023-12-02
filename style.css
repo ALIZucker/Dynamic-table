@@ -1,0 +1,26 @@
+#table-main {
+  width: 90%;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: 4vw;
+  box-shadow: 1px 0 6px 2px #282928; }
+
+#table-main tr th {
+  color: #fff;
+  background-color: #50a366;
+  font-size: 2vw;
+  padding: 1.4vh 0; }
+
+#table-main tr td {
+  color: #282928;
+  background-color: #d4d6d5;
+  font-size: 1.2vw;
+  padding: 1vh 0; }
+
+#table-main tr td img {
+  width: 5.5vw;
+  height: 13vh;
+  box-shadow: 1px 2px 4px 2px #282928;
+  border-radius: 12px; }
+
+/*# sourceMappingURL=style.css.map */
