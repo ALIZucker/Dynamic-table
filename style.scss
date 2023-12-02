@@ -18,16 +18,17 @@ $font-size: 2vw;
 }
 
 #table-main tr th {
-  @include table-row($font-color, $th-color, $font-size, 1.2vh, 0)
+  @include table-row($font-color, $th-color, $font-size, 1.4vh, 0)
 
 }
 
 #table-main tr td {
-  @include table-row(#282928, #d4d6d5, 1.4vw, 1.6vh, 0)
+  @include table-row(#282928, #d4d6d5, 1.2vw, 1vh, 0)
+
 }
 #table-main tr td img {
-  width: 5vw;
-  height: 10vh;
+  width: 5.5vw;
+  height: 13vh;
   box-shadow: 1px 2px 4px 2px #282928;
   border-radius: 12px;
 }

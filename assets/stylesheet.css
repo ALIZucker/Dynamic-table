@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('DMSerifDisplay-Regular.eot');
+    src: url('DMSerifDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DMSerifDisplay-Regular.woff2') format('woff2'),
+        url('DMSerifDisplay-Regular.woff') format('woff'),
+        url('DMSerifDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+#table-main tr td{
+    font-family: "DM Serif Display";
+}
+#table-main tr th{
+    font-family: "DM Serif Display";
+}
+
