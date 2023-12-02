@@ -1,0 +1,33 @@
+$th-color: #50a366;
+$font-color: #fff;
+$font-size: 2vw;
+
+@mixin table-row($color-text,$text-back,$font-s,$padtop-bot,$padleft-right) {
+  color: $color-text;
+  background-color: $text-back;
+  font-size: $font-s;
+  padding: $padtop-bot $padleft-right;
+}
+
+#table-main {
+  width: 90%;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: 4vw;
+  box-shadow: 1px 0 6px 2px #282928;
+}
+
+#table-main tr th {
+  @include table-row($font-color, $th-color, $font-size, 1.2vh, 0)
+
+}
+
+#table-main tr td {
+  @include table-row(#282928, #d4d6d5, 1.4vw, 1.6vh, 0)
+}
+#table-main tr td img {
+  width: 5vw;
+  height: 10vh;
+  box-shadow: 1px 2px 4px 2px #282928;
+  border-radius: 12px;
+}
